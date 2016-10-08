@@ -39,8 +39,8 @@
 
 /* Begin PBXFileReference section */
 		37A06F361FBEBF354195CC90 /* Pods-bigPicScrollView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-bigPicScrollView.release.xcconfig"; path = "Pods/Target Support Files/Pods-bigPicScrollView/Pods-bigPicScrollView.release.xcconfig"; sourceTree = "<group>"; };
-		5647A4491D7E8E4A00E693DC /* UIView+UserData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIView+UserData.h"; path = "../UIView+UserData.h"; sourceTree = "<group>"; };
-		5647A44A1D7E8E4A00E693DC /* UIView+UserData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIView+UserData.m"; path = "../UIView+UserData.m"; sourceTree = "<group>"; };
+		5647A4491D7E8E4A00E693DC /* UIView+UserData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+UserData.h"; sourceTree = "<group>"; };
+		5647A44A1D7E8E4A00E693DC /* UIView+UserData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+UserData.m"; sourceTree = "<group>"; };
 		56FA86CF1D79758600005C96 /* bigPicScrollView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = bigPicScrollView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		56FA86D31D79758600005C96 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		56FA86D51D79758600005C96 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -56,8 +56,8 @@
 		56FA86F71D79758600005C96 /* bigPicScrollViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = bigPicScrollViewUITests.m; sourceTree = "<group>"; };
 		56FA86F91D79758600005C96 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		56FA87051D7976AB00005C96 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
-		56FA87071D7976F100005C96 /* kysScrollPicView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = kysScrollPicView.h; path = bigPicScrollView/kysScrollPicView.h; sourceTree = SOURCE_ROOT; };
-		56FA87081D7976F100005C96 /* kysScrollPicView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = kysScrollPicView.m; path = bigPicScrollView/kysScrollPicView.m; sourceTree = SOURCE_ROOT; };
+		56FA87071D7976F100005C96 /* kysScrollPicView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = kysScrollPicView.h; path = bigPicScrollView/kysScrollPic/kysScrollPicView.h; sourceTree = SOURCE_ROOT; };
+		56FA87081D7976F100005C96 /* kysScrollPicView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = kysScrollPicView.m; path = bigPicScrollView/kysScrollPic/kysScrollPicView.m; sourceTree = SOURCE_ROOT; };
 		56FA870A1D79779B00005C96 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
 		AF6D1F8FA5449DCD80F1D3DC /* Pods-bigPicScrollView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-bigPicScrollView.debug.xcconfig"; path = "Pods/Target Support Files/Pods-bigPicScrollView/Pods-bigPicScrollView.debug.xcconfig"; sourceTree = "<group>"; };
 		C377F0B373915F8C285BC39B /* libPods-bigPicScrollView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-bigPicScrollView.a"; sourceTree = BUILT_PRODUCTS_DIR; };

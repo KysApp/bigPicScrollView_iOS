@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 #import "UIImageView+WebCache.h"
+//样式
 typedef NS_ENUM(NSInteger, kysAlignment)
 {
     //点在中间
@@ -51,9 +52,11 @@ typedef NS_ENUM(NSInteger, kysAlignment)
     NSInteger _currentIndex;
     //
     CGSize _baseSize;
+    //
+    NSTextAlignment _titleAlignment;
 }
 
-//定制颜色
+//代理 用于点击时间回传
 @property (nonatomic,weak) id<kysScrollPicDelegate>delegate;
 //自动滚动时间
 @property (nonatomic) NSTimeInterval autoScrollTime;
@@ -63,6 +66,8 @@ typedef NS_ENUM(NSInteger, kysAlignment)
 - (void)setCurrentPageIndicatorColor:(UIColor*)current otherPageIndicator:(UIColor*)other;
 //设置名称与图片地址
 - (void)setDatasWithTitleArray:(NSArray *)titleArray imageArray:(NSArray *)imageArray;
+//设置title的属性
+- (void)setTitleTextColor:(UIColor*)textColor alignment:(NSTextAlignment)align;
 //暂停滚动
 - (void)pause;
 //重新启动

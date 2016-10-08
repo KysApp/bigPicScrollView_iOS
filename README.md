@@ -1,4 +1,13 @@
 # bigPicScrollView
+======================================
+bigPicScrollView是可循环滚动的简单封装，用来展示活动海报等。
+## 准备
+* kysScrollPic文件夹拖入工程
+* 由于分装中使用了sdwebimage用来下载图片所以需要在你的pod中添加sdwebimagez或者手动添加
+##初始化
+```
+    kysScrollPicView *view = [[kysScrollPicView alloc] initWithFrame:CGRectMake(0,20, width, width*9/16)];
+```
 初始化<br>
     kysScrollPicView *view = [[kysScrollPicView alloc] initWithFrame:CGRectMake(0,20, width, width*9/16)];<br>
 设置代理<br>
